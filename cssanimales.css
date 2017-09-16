@@ -1,0 +1,16 @@
+.navColor{
+    border-style: dashed;
+}
+
+body{
+    margin: 0%;
+}
+
+.izquierdalogo{
+    float: left;
+
+}
+
+.linkestilo {
+    float: right;
+}
