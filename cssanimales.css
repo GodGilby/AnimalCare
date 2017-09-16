@@ -1,6 +1,4 @@
-.navColor{
-    border-style: dashed;
-}
+
 
 body{
     margin: 0%;
@@ -8,9 +6,15 @@ body{
 
 .izquierdalogo{
     float: left;
+    border-style: dashed;
+
 
 }
 
-.linkestilo {
+
+
+.derechato{
     float: right;
+    margin-top: 80px;
+    font-size: 300%;
 }
