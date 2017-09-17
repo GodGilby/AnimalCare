@@ -6,15 +6,15 @@ body{
 
 .izquierdalogo{
     float: left;
-    border-style: dashed;
-
-
+    border-style: solid;
+    height: 25%;
 }
 
 
 
 .derechato{
     float: right;
-    margin-top: 80px;
-    font-size: 300%;
+    margin-top: 3.5%;
+    font-size: 350%;
+
 }
