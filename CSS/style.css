@@ -123,6 +123,17 @@ line-height:50px;
     background-color:#BBDEFB;
 }
 
+.TituloH2 {
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size:2.5rem;
+    padding:2px;
+    text-align: center;
+    background-color:#BBDEFB;
+
+}
+
 @media screen and (max-width: 768px) {
 
     nav{
