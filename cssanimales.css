@@ -5,9 +5,10 @@ body{
 }
 
 .izquierdalogo{
-    float: left;
+
     border-style: solid;
     height: 25%;
+
 }
 
 
@@ -16,5 +17,18 @@ body{
     float: right;
     margin-top: 3.5%;
     font-size: 350%;
+}
+
+.ParrafoDerecha{
+    float: left;
+    overflow: auto;
+}
+
+p img{
+    width: 200px;
+    height: 200px;
+    border: 1px solid blue;
 
 }
+
+
