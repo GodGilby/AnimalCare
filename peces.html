@@ -3,40 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <title>Gatos</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 
 <body >
-        <section id="header" >
-        <img src="Imagenes/AnimalCare.png" alt="" width="30%">
-    </section>
-    <nav id="Header_menu">
-        <a href="Inicio.html">Inicio</a>
-        <a href="Vertebrados.html">Vertebrados</a>
-        <a href="Invertebrados.html">Invertebrados</a>
-        <a href="Nosotros.html">Nosotros</a>
-        <a href="Contactanos.html">Contacto</a>
-    </nav>
+        <header>
+       <a id="logo" href=""><img src="Imagenes/animal-rights.svg" alt="" width="45px"></a>
+        <a id="logo2" href=""><img src="Imagenes/animalcareLogo.png" alt=""></a>
+        <a id="menu-logo" href=""><img src="Imagenes/menu-button-of-three-horizontal-lines.svg" width="38px" alt=""></a>
+      <nav>
+        <ul id="menu">
+          <li><a href="INDEX.html">Inicio</a></li>
+          <li><a href="INDEX.html">Animales</a>
+            <ul>
+              <li><a href="Vertebrados.html">Vertebrados</a></li>
+              <li><a href="Invertebrados.html">Invertebrados</a></li>
+            </ul>
+          </li>
+          <li><a href="Nosotros.html">Nosotros</a></li>
+          <li><a href="Contactanos.html">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
 
-        <h1 r> Peces</h1>
+       <h1 id="Titulo"> Peces</h1>
 
-        <img  src="peces.jpeg"  WIDTH=60% HEIGHT=180><br>
+        <img  src="peces.jpeg"  WIDTH=25% HEIGHT=25%>
 
-    <p>  Los peces (en latín Pisces) son los animales vertebrados primariamente acuáticos, generalmente ectotérmicos (regulan su temperatura a partir del medio ambiente) y con respiración por branquias. Suelen estar recubiertos por escamas, y están dotados de aletas, que permiten su movimiento continuo en los medios acuáticos, y branquias, con las que captan el oxígeno disuelto en el agua. El grupo Pisces no es un taxón porque sería parafilético.<br></p>
+    <p class="columna-derecha">  Los peces (en latín Pisces) son los animales vertebrados primariamente acuáticos, generalmente ectotérmicos (regulan su temperatura a partir del medio ambiente) y con respiración por branquias. Suelen estar recubiertos por escamas, y están dotados de aletas, que permiten su movimiento continuo en los medios acuáticos, y branquias, con las que captan el oxígeno disuelto en el agua. El grupo Pisces no es un taxón porque sería parafilético.<br></p>
+
+            <h2 class="TituloH2">Razas</h2>
+
+          <div class="container">
+       <div class="marginimagen">
+
 
             <a href="pezbeta.html">
-                <img  src="pezbeta.jpg"  WIDTH=30% HEIGHT=180  VSPACE=3></a>
+                <img  src="pezbeta.jpg" class="paddingimagen" width="200px" height="200px"></a></div>
+                <div class="paddingimagen">
             <a href="pezangel.html">
-                 <img  src="pezangel.jpg"  WIDTH=30% HEIGHT=180  VSPACE=3>
-    </a>
+                 <img  src="pezangel.jpg"  width="200px" height="200px">
+                    </a></div>
+                    <div class="paddingimagen">
              <a href="pezgato.html">
-                 <img  src="pezgato.jpg"  WIDTH=30% HEIGHT=180  VSPACE=3>
+                 <img  src="pezgato.jpg"  width="200px" height="200px">
     </a>
 
-    <ul>
-            <li><a href="pezbeta.html"> Pez Beta</a></li>
-            <li><a href="pezangel.html">Pez Angel</a></li>
-            <li><a href="pezgato.html">Pez Gato</a></li>
-        </ul>
+              </div>
+    </div>
+
 </body>
 </html>
