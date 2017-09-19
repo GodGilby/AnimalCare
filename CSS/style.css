@@ -70,7 +70,8 @@ line-height:50px;
 .container{
     padding-left:20px;
     padding-right:20px;
-    display:inline-flex
+    display:block;
+    overflow: hidden;
 
 
 }
@@ -159,6 +160,16 @@ body{
 
     nav{
         display: none;
+
+    }
+    footer img {
+        margin-right: 30px;
+    }
+
+    .nav-foo{
+
+        display: none;
+
     }
 
 }
@@ -188,8 +199,5 @@ footer .nav-foo a {
     color: white;
     font-size: .8rem;
 }
-#redes{
 
-    margin-right:30px;
-}
 
