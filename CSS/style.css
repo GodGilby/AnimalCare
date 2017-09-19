@@ -93,7 +93,7 @@ line-height:50px;
 .columna-derecha{
 
     padding: 10px;
-    width:40%;
+    width:50%;
     justify-content: center;
     margin: auto;
     display: block;
@@ -134,12 +134,17 @@ line-height:50px;
 
 .marginimagen{
 
-    margin-left: 50%;
-    display: flex;
+    margin-left: 40%;
+
+
+}
+
+.marginimagenizquierda{
+    margin-right: 40%;
 }
 
 .paddingimagen{
-    padding: 0px 0px 40px 40px;
+    padding: 0px 40px 0px 40px;
 
 }
 
