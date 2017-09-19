@@ -1,8 +1,8 @@
 *{
   margin: 0;
   padding: 0;
-     font-family: 'Lato', sans-serif;
-      font-weight:300;
+  font-family: 'Lato', sans-serif;
+  font-weight:300;
 }
 
 header{
@@ -68,10 +68,12 @@ line-height:50px;
 }
 
 .container{
-    padding-left:20px;
-    padding-right:20px;
-    display:inline-flex
-
+    overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  width: 100%
 
 }
 
@@ -96,8 +98,6 @@ body{
     padding: 10px;
     width:50%;
     justify-content: center;
-    margin: auto;
-    display: block;
     float:right;
 
 
@@ -193,3 +193,7 @@ footer .nav-foo a {
     margin-right:30px;
 }
 
+.lista-imagenes a img{
+    display: inline-block;
+    text-align: center;
+}
