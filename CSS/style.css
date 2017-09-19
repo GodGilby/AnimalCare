@@ -151,6 +151,8 @@ body{
 
 .parrafocentrado{
     text-align: center;
+    font-family: cursive;
+
 }
 
 @media screen and (max-width: 768px) {
