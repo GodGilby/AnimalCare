@@ -3,7 +3,6 @@
   padding: 0;
      font-family: 'Lato', sans-serif;
       font-weight:300;
-
 }
 
 header{
@@ -76,7 +75,9 @@ line-height:50px;
 
 }
 
-
+body{
+    background-color: #DCFFF1;
+}
 
 
 .columna-izquierda{
@@ -148,7 +149,9 @@ line-height:50px;
 
 }
 
-
+.parrafocentrado{
+    text-align: center;
+}
 
 @media screen and (max-width: 768px) {
 
