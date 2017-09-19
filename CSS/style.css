@@ -38,6 +38,8 @@ line-height:50px;
 #menu li>a:hover{
   color: #000;
   background-color:#BBDEFB;
+
+
 }
 #menu>li{
   float: left;
@@ -48,6 +50,7 @@ line-height:50px;
 }
 #menu>li:hover>ul {
   display:block;
+  position: fixed;
 }
 
 #logo{
@@ -152,8 +155,12 @@ body{
 
 @media screen and (max-width: 768px) {
 
+    #menu li a{
+        width:500px;
+    }
+
     nav{
-        display: none;
+        display:block;
 
     }
     footer img {
@@ -164,6 +171,9 @@ body{
 
         display: none;
 
+    }
+    #menu-logo{
+        display: none;
     }
 
 }
