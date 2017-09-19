@@ -3,37 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <title>Gatos</title>
+    <link rel="stylesheet" href="CSS/style.css">
 </head>
 
 <body >
 
-<section id="header" >
-        <img src="Imagenes/AnimalCare.png" alt="" width="30%">
-    </section>
-    <nav id="Header_menu">
-        <a href="Inicio.html">Inicio</a>
-        <a href="Vertebrados.html">Vertebrados</a>
-        <a href="Invertebrados.html">Invertebrados</a>
-        <a href="Nosotros.html">Nosotros</a>
-        <a href="Contactanos.html">Contacto</a>
-    </nav>
-       <h1 > Gatos</h1>
-        <img  src="gatos.jpg"  WIDTH=55% HEIGHT=180><br>
+    <header>
+       <a id="logo" href=""><img src="Imagenes/animal-rights.svg" alt="" width="45px"></a>
+        <a id="logo2" href=""><img src="Imagenes/animalcareLogo.png" alt=""></a>
+        <a id="menu-logo" href=""><img src="Imagenes/menu-button-of-three-horizontal-lines.svg" width="38px" alt=""></a>
+      <nav>
+        <ul id="menu">
+          <li><a href="">Inicio</a></li>
+          <li><a href="">Animales</a>
+            <ul>
+              <li><a href="">Vertebrados</a></li>
+              <li><a href="">Invertebrados</a></li>
+            </ul>
+          </li>
+          <li><a href="">Nosotros</a></li>
+          <li><a href="">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+     <div>
+      <div>
+       <h1 id="Titulo" > Gatos</h1>
+        </div>
+        <div>
 
-    <p> El gato o gato doméstico (Felis silvestris catus) y coloquialmente llamado minino, michino, micho, mizo, miz, morrongo o morroño, es una subespecie de mamífero carnívoro de la familia Felidae. El gato está en convivencia cercana al ser humano desde hace unos 9500 años, periodo superior al estimado anteriormente, que oscilaba entre 3500 y 8000 años.</p>
+    <p class="columna-derecha"> El gato o gato doméstico (Felis silvestris catus) y coloquialmente llamado minino, michino, micho, mizo, miz, morrongo o morroño, es una subespecie de mamífero carnívoro de la familia Felidae. El gato está en convivencia cercana al ser humano desde hace unos 9500 años, periodo superior al estimado anteriormente, que oscilaba entre 3500 y 8000 años.</p>
+    </div>
+           <img  src="gatos.jpg"  width="25%" height="25%"><br>
+    </div>
+           <h2 class="TituloH2">Razas</h2>
+       <div class="container">
+       <div class="marginimagen">
+
             <a href="siames.html">
-                <img  src="gatosiames.jpg"  WIDTH=30% HEIGHT=180  VSPACE=3></a>
+                <img  src="gatosiames.jpg"  class="paddingimagen" width="200px" height="200px"></a></div>
+                <div class="paddingimagen">
             <a href="esfinge.html">
-                 <img  src="gatoesfinge.jpg"  WIDTH=30% HEIGHT=180  VSPACE=3>
-    </a>
+                 <img  src="gatoesfinge.jpg"   width="200px" height="200px">
+                    </a></div>
+            <div class="paddingimagen">
              <a href="bengala.html">
-                 <img  src="gatobengala.jpeg"  WIDTH=30% HEIGHT=180  VSPACE=3>
+                 <img  src="gatobengala.jpeg"   width="200px" height="200px">
     </a>
+    </div>
+        </div>
 
-    <ul>
+<!--     <ul>
             <li><a href="siames.html"> Gato Siames</a></li>
             <li><a href="esfinge.html">Gato Esfinge</a></li>
             <li><a href="bengala.html">Gato Bengala</a></li>
         </ul>
+-->
+
 </body>
 </html>
