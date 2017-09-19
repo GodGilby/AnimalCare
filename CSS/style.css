@@ -227,4 +227,6 @@ footer .nav-foo a {
 .by a{
     color: black;
     background-color: #2196F3;
+    display: inline-block;
+    width: 500px;
 }
