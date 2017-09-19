@@ -68,6 +68,7 @@ line-height:50px;
 }
 
 .container{
+<<<<<<< HEAD
 
     overflow: hidden;
   margin-right: auto;
@@ -79,6 +80,12 @@ line-height:50px;
 
 
 
+=======
+  overflow: hidden;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+>>>>>>> AnimalCare/master
 }
 
 body{
@@ -205,6 +212,7 @@ footer .nav-foo a {
 
 
 .lista-imagenes a img{
-    display: inline-block;
     text-align: center;
+    padding-right: 20px;
+
 }
