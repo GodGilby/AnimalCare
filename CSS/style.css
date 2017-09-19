@@ -132,6 +132,19 @@ line-height:50px;
     background-color:#BBDEFB;
 }
 
+.marginimagen{
+
+    margin-left: 50%;
+    display: flex;
+}
+
+.paddingimagen{
+    padding: 0px 0px 40px 40px;
+
+}
+
+
+
 @media screen and (max-width: 768px) {
 
     nav{
