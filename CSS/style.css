@@ -68,21 +68,10 @@ line-height:50px;
 }
 
 .container{
-<<<<<<< HEAD
-    overflow: hidden;
+  overflow: hidden;
   margin-right: auto;
   margin-left: auto;
-  padding-right: 15px;
-  padding-left: 15px;
-  width: 100%
-=======
-    padding-left:20px;
-    padding-right:20px;
-    display:block;
-    overflow: hidden;
-
->>>>>>> AnimalCARE/master
-
+  width: 100%;
 }
 
 body{
@@ -209,6 +198,7 @@ footer .nav-foo a {
 
 
 .lista-imagenes a img{
-    display: inline-block;
     text-align: center;
+    padding-right: 20px;
+
 }
