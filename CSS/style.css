@@ -169,3 +169,27 @@ body{
     }
 }
 
+footer{
+background-color: #2196F3;
+height: 70px;
+}
+.nav-foo{
+    padding: 25px;
+
+}
+
+footer img{
+    padding: 12px;
+    float: right;
+}
+
+footer .nav-foo a {
+    margin-left: 30px;
+    color: white;
+    font-size: .8rem;
+}
+#redes{
+
+    margin-right:30px;
+}
+
