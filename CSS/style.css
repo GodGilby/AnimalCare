@@ -186,11 +186,16 @@ body{
 
     }
 
+
+
 }
 @media screen and (min-width: 769px) {
 
     #menu-logo{
         display: none;
+    }
+    .by{
+        display:none;
     }
 }
 
@@ -225,4 +230,13 @@ footer .nav-foo a {
     margin-bottom: 20px;
 }
 
-
+.by{
+    color: black;
+    background-color: #2196F3;
+}
+.by a{
+    color: black;
+    background-color: #2196F3;
+    display: inline-block;
+    width: 500px;
+}
