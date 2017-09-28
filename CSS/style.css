@@ -99,6 +99,7 @@ body{
 
     padding: 10px;
     width:50%;
+    text-align: justify;
     justify-content: center;
     float:right;
 
@@ -174,6 +175,15 @@ body{
     }
     #menu-logo{
         display: none;
+    }
+.columna-izquierda{
+     padding: 5%;
+    width: 90%;
+    }
+    .columna-derecha{
+         padding: 5%;
+        width: 90%;
+
     }
 
 }
