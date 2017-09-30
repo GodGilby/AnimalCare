@@ -6,7 +6,11 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head>
 <body>
-
+<script>
+    function verDatos(){
+        document.parrafovisible.display:block;
+    }
+</script>
    <header>
        <a id="logo" href=""><img src="Imagenes/animal-rights.svg" alt="" width="45px"></a>
         <a id="logo2" href=""><img src="Imagenes/animalcareLogo.png" alt=""></a>
@@ -26,7 +30,10 @@
        <h1 id="Titulo">Sobre nosotros</h1>
        <div>
 
-           <img src="julio.jpg" width="300" height="300">
+           <img src="julio.jpg" width="300" height="300" id="imagenclick">
+           <br>
+           <button id="click" onclick="verDatos()">Ver Informacion</button>
+           <p class="parrafovisible">sdasdadsdasdsadsdadsa</p>
            <h2 class="TituloH2">Julio Espinosa</h2>
        </div>
        <div>
