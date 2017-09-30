@@ -99,6 +99,7 @@ body{
 
     padding: 10px;
     width:50%;
+    text-align: justify;
     justify-content: center;
     float:right;
 
@@ -175,12 +176,26 @@ body{
     #menu-logo{
         display: none;
     }
+.columna-izquierda{
+     padding: 5%;
+    width: 90%;
+    }
+    .columna-derecha{
+         padding: 5%;
+        width: 90%;
+
+    }
+
+
 
 }
 @media screen and (min-width: 769px) {
 
     #menu-logo{
         display: none;
+    }
+    .by{
+        display:none;
     }
 }
 
@@ -215,4 +230,13 @@ footer .nav-foo a {
     margin-bottom: 20px;
 }
 
-
+.by{
+    color: black;
+    background-color: #2196F3;
+}
+.by a{
+    color: black;
+    background-color: #2196F3;
+    display: inline-block;
+    width: 500px;
+}
