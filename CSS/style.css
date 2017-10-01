@@ -158,6 +158,10 @@ body{
    display: none;
 }
 
+#imagenmov2{
+    display: none;
+}
+
 @media screen and (max-width: 768px) {
 
     #menu li a{
