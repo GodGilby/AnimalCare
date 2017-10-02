@@ -60,12 +60,12 @@ var cambioImagen = function(){
     var i = 0;
     while(i < 9000){
 
-        if(x < 1000){
+        if(x < 2000){
             z.style.display = "block";
             y.style.display = "none";
             i ++;
         }
-        else if(x < 2000){
+        else if(x < 4000){
             y.style.display = "block";
             z.style.display = "none";
             i++;
