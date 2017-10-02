@@ -1,9 +1,34 @@
-var verDatos = function(){
-        if (document.getElementById("parrafovisible").style.display == 'block'){
-            parrafovisible.style.display = "none";
+var verDatosJulio = function(){
+        if (document.getElementById('parrafojulio').style.display == 'block'){
+            parrafojulio.style.display = "none";
         }
         else{
-            parrafovisible.style.display = "block";
+            parrafojulio.style.display = "block";
+
+        }
+}
+var verDatosRene = function(){
+    if (document.getElementById('parraforene').style.display == 'block'){
+            parraforene.style.display = "none";
+        }
+        else{
+            parraforene.style.display = "block";
+        }
+}
+var verDatosOrlando = function(){
+    if (document.getElementById('parrafoorlando').style.display == 'block'){
+            parrafoorlando.style.display = "none";
+        }
+        else{
+            parrafoorlando.style.display = "block";
+        }
+}
+var verDatosGilby = function(){
+    if (document.getElementById('parrafogilby').style.display == 'block'){
+            parrafogilby.style.display = "none";
+        }
+        else{
+            parrafogilby.style.display = "block";
         }
     }
 /*

@@ -154,7 +154,16 @@ body{
 
 }
 
-#parrafovisible{
+#parrafojulio{
+   display: none;
+}
+#parraforene{
+   display: none;
+}
+#parrafoorlando{
+   display: none;
+}
+#parrafogilby{
    display: none;
 }
 
