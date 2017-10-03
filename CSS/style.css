@@ -241,19 +241,11 @@ div.tab button.active {
 
 
 }
-@media screen and (min-width: 769px) {
-
-    #menu-logo{
-        display: none;
-    }
-    .by{
-        display:none;
-    }
-}
 
 footer{
 background-color: #2196F3;
-height: 70px;
+display: block;
+overflow: hidden;
 }
 .nav-foo{
     padding: 25px;
@@ -291,4 +283,8 @@ footer .nav-foo a {
     background-color: #2196F3;
     display: inline-block;
     width: 500px;
+}
+footer .social-feed-facebook{
+    padding: 20px;
+    display: inline-block;
 }
