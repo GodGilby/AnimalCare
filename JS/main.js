@@ -1,4 +1,4 @@
-var myVar = setInterval(cambioImagen, 2000);
+var myVar = setInterval(cambioImagen, 2500);
 
 var verDatosJulio = function(){
         if (document.getElementById('parrafojulio').style.display == 'block'){
@@ -59,15 +59,14 @@ function cambioImagen(){
     var z = document.getElementById('imagenmov1');
      var y = document.getElementById('imagenmov2');
 
-        if (z.style.display == 'block'){
-            z.style.display = "none";
-            y.style.display = "block";
-
-        }
-        else{
+        if (z.style.display == 'none'){
             y.style.display = "none";
             z.style.display = "block";
 
+        }
+        else{
+            z.style.display = "none";
+            y.style.display = "block";
 
         }
 }
