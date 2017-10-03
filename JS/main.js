@@ -1,3 +1,5 @@
+var myVar = setInterval(cambioImagen, 2000);
+
 var verDatosJulio = function(){
         if (document.getElementById('parrafojulio').style.display == 'block'){
             parrafojulio.style.display = "none";
@@ -51,29 +53,21 @@ function openCity(evt, cityName) {
     document.getElementById(cityName).style.display = "block";
     evt.currentTarget.className += " active";
 }
-/*
-var cambioImagen = function(){
-    //var imagenes = [imagenmov1,imagenmov2];
-    var x = 0;
+
+function cambioImagen(){
+
     var z = document.getElementById('imagenmov1');
      var y = document.getElementById('imagenmov2');
-    var i = 0;
-    while(i < 9000){
 
-        if(x < 2000){
-            z.style.display = "block";
-            y.style.display = "none";
-            i ++;
-        }
-        else if(x < 4000){
-            y.style.display = "block";
+        if (z.style.display == 'block'){
             z.style.display = "none";
-            i++;
+            y.style.display = "block";
+
         }
         else{
-            x= 0;
+            y.style.display = "none";
+            z.style.display = "block";
+
+
         }
-        x++;
-    }
 }
-*/
