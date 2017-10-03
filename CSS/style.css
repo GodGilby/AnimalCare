@@ -285,6 +285,15 @@ footer .nav-foo a {
     width: 500px;
 }
 footer .social-feed-facebook{
+
     padding: 20px;
-    display: inline-block;
+    display: block;
+}
+footer .social-feed-instagram
+{
+    width:350px;
+    padding: 20px;
+    display: block;
+}.bloque-social{
+display: inline-block: ;
 }
