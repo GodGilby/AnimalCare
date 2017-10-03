@@ -304,17 +304,20 @@ footer .social-feed-instagram
 }.bloque-social{
 box-sizing: border-box;
     display:inline-flex;
+    margin-left: 50px;
+    margin-right: 80px;
 }
 
 .social-feed-twitter{
  width: 350px;
     padding: 20px;
+
 }
 
 
 @media screen and (max-width:560px) {
     .bloque-social{
-display: block;
+    display: block;
 }
 
 }
