@@ -48,10 +48,7 @@ line-height:50px;
 #menu>li>ul{
   display: none;
 }
-#menu>li:hover>ul {
-  display:block;
-  position: fixed;
-}
+
 
 #logo{
     float: left;
@@ -206,6 +203,8 @@ div.tab button.active {
 }
 
 @media screen and (max-width: 768px) {
+        .bloque-social{
+            display: block;}
 
 
 
@@ -214,7 +213,7 @@ div.tab button.active {
     }
 
     nav{
-        display:block;
+        display:none;
 
     }
     footer img {
@@ -227,8 +226,14 @@ div.tab button.active {
 
     }
     #menu-logo{
-        display: none;
+        display: block;
     }
+    #ham:hover>nav {
+  display:inline;
+  position: absolute;
+}
+
+
 .columna-izquierda{
      padding: 5%;
     width: 90%;
@@ -243,11 +248,12 @@ div.tab button.active {
 
 }
 
-@media screen and (min-width: 560px) {
+@media screen and (min-width: 768px) {
 
     #menu-logo{
         display: none;
     }
+
 }
 footer{
 background-color: #2196F3;
@@ -315,9 +321,3 @@ box-sizing: border-box;
 }
 
 
-@media screen and (max-width:560px) {
-    .bloque-social{
-    display: block;
-}
-
-}
