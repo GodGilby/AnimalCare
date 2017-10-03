@@ -321,3 +321,11 @@ box-sizing: border-box;
 }
 
 
+
+@media screen and (max-width:560px) {
+    .bloque-social{
+    display: block;
+}
+
+}
+
