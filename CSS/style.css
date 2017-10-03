@@ -173,7 +173,7 @@ div.tab {
     background-color: #f1f1f1;
 }
 
-/* Style the buttons inside the tab */
+
 div.tab button {
     background-color: inherit;
     border: none;
@@ -184,17 +184,16 @@ div.tab button {
     transition: 0.3s;
 }
 
-/* Change background color of buttons on hover */
+
 div.tab button:hover {
     background-color: #ddd;
 }
 
-/* Create an active/current tablink class */
+
 div.tab button.active {
     background-color: #ccc;
 }
 
-/* Style the tab content */
 .tabcontent {
     display: none;
     padding: 6px 12px;
@@ -241,19 +240,11 @@ div.tab button.active {
 
 
 }
-@media screen and (min-width: 769px) {
-
-    #menu-logo{
-        display: none;
-    }
-    .by{
-        display:none;
-    }
-}
 
 footer{
 background-color: #2196F3;
-height: 70px;
+display: block;
+overflow: hidden;
 }
 .nav-foo{
     padding: 25px;
@@ -291,4 +282,17 @@ footer .nav-foo a {
     background-color: #2196F3;
     display: inline-block;
     width: 500px;
+}
+footer .social-feed-facebook{
+
+    padding: 20px;
+    display: block;
+}
+footer .social-feed-instagram
+{
+    width:350px;
+    padding: 20px;
+    display: block;
+}.bloque-social{
+display: inline-block: ;
 }
