@@ -306,3 +306,8 @@ footer .social-feed-instagram
 box-sizing: border-box;
     display:inline-flex;
 }
+
+.social-feed-twitter{
+ width: 350px;
+    padding: 20px;
+}
