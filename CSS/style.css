@@ -208,6 +208,8 @@ div.tab button.active {
 
 @media screen and (max-width: 768px) {
 
+
+
     #menu li a{
         width:500px;
     }
@@ -242,6 +244,12 @@ div.tab button.active {
 
 }
 
+@media screen and (min-width: 560px) {
+
+    #menu-logo{
+        display: none;
+    }
+}
 footer{
 background-color: #2196F3;
 display: block;
@@ -287,13 +295,14 @@ footer .nav-foo a {
 footer .social-feed-facebook{
 
     padding: 20px;
-    display: block;
+
 }
 footer .social-feed-instagram
 {
     width:350px;
     padding: 20px;
-    display: block;
+
 }.bloque-social{
-display: inline-block;
+box-sizing: border-box;
+    display:inline-flex;
 }
