@@ -41,6 +41,11 @@ line-height:50px;
 
 
 }
+#menu>li:hover>ul{
+    display: block;
+    position: absolute;
+}
+
 #menu>li{
   float: left;
   text-align:center
